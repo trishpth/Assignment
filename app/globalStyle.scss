@@ -1,0 +1,230 @@
+@import './common/styles/default.scss';
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   font-family: inherit;
+   background-color: #ebebeb;
+}
+.cursor {
+    cursor: pointer;
+}
+.star {
+    color: red;
+}
+.green_success {
+    color : #00FF47;
+}
+input {
+    margin-left: 10px;
+    height: 25px;
+    width : 25%;
+}
+textarea {
+    margin-left: 10px;
+    vertical-align: top;
+}
+select {
+    margin-left: 10px;
+    height: 25px;
+    cursor: pointer;
+    -webkit-border-radius: 0px;
+    border-radius: none;
+    background: url(https://s3.us-east-2.amazonaws.com/kontrol-projects/kontrol-id/images/down_arrowhead.png) no-repeat white right;
+    background-size: 11px;
+    background-position: right;
+    background-position-x: right;
+    background-position-x: 96%;
+    border-color: white;
+    -webkit-transition: height 0.4s, width 0.4s; /* Safari */
+    transition: height 0.4s, width 0.4s;
+}
+input, select, textarea{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-appearance: none;
+  border: 1px solid white;
+  border-radius: 0;
+  padding-left: 4px;
+  font-family: inherit;
+  color: black;
+}
+input[type="checkbox"] {
+    margin-left: 50px;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    vertical-align: middle;
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+}
+.width_100 {
+    width: 100%;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.width_50 {
+    width: 50%;
+    display: inline-block;
+}
+.width_20 {
+    width: 20%;
+    display: inline-block;
+}
+.width_35 {
+    width: 35%;
+    display: inline-block;
+}
+.width_15 {
+    width: 15%;
+    display: inline-block;
+}
+.width_22 {
+    width: 22%;
+    display: inline-block;
+}
+.width_5 {
+    width: 5%;
+    display: inline-block;
+}
+.errorMessage {
+    color:red;
+    display:inline-block;
+}
+button {
+    cursor: pointer;
+}
+.gray_box {
+    background: gray;
+    border : 1px solid gray;
+}
+table {
+    width:100%;
+    text-align: left;
+    border : 1px solid black;
+}
+table > thead {
+    border-bottom: 1px solid black;
+    background: black;
+}
+table > tbody > tr {
+    border-bottom: 1px solid black;
+}
+table > tbody > tr:last-child {
+    border-bottom: 0px solid black;
+}
+th {
+    font-weight: bold;
+}
+td,th {
+    border-right: 0px solid black;
+    padding : 4px;
+}
+td > input[type="checkbox"] {
+    margin-right: 0px;
+    margin-left : 10px;
+    cursor: pointer;
+}
+td > i {
+    cursor: pointer;
+}
+td:last-child,th:last-child {
+    border-right: 1px solid black;
+}
+@media only screen and (max-width: 1250px) {
+  input {
+      height: 22px;
+  }
+  select {
+      height: 22px;
+  }
+}
+@media only screen and (max-width: 1700px){
+    .home_body{
+        margin-left: 5.5%;
+        width: 60%;
+    }
+    .dashboard_options{
+        margin-left: 5px;
+    }
+    .form_search > input{
+        margin-top: 35%;
+    }
+    .form_search > label{
+        margin-right: 1px;
+    }
+  
+}
+@media only screen and (max-width: 1440px){
+    home_body {
+        margin-left: 5.5%;
+        width: 58%;
+    }
+    .dashboard_options{
+        margin-left: 15px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .home_body{
+        margin-left: 11%;
+        width: 52%;
+    }
+    .login_block{
+        margin: 1% 0 auto;
+    }
+    .home > select{
+        width: 25%;
+    }
+    .card > .img{
+        width: 60%;
+    }
+    .details > h3 {
+        font-size: 1em;
+    }
+    .details > button{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .home_body{
+        width: 45%;
+        margin-left: 18%;
+    }
+    .home > p {
+        font-size: 1em;
+    }
+    .home > select{
+        width: 40%;
+    }
+    .card > .img{
+        width: 90%;
+    }
+    .details > h3 {
+        font-size: 0.95em;
+    }
+    .details > button{
+        width: 80%;
+    }
+}
+
+
+
+@media only screen and (max-width: 1970px){
+.form_search > input{
+    margin-top: 50%;
+}
+  
+
+
+}
+
+.img-avatar{
+    height: 35px;
+    margin: 0 10px;
+    max-width: 100%;
+    border-radius: 50em;
+    border: 1px solid #fff;
+    vertical-align: middle;
+}

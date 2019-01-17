@@ -1,0 +1,124 @@
+@import '../../../../../../globalStyle.scss';
+ .form_home {
+    width : 72%;
+     float : right;
+ }
+ .form_home > .form_head {
+     text-align: left;
+    color : $orange-color;
+    font-size: 80px;
+   font-weight: 100;
+   margin: 15px;
+    font-family: 'Raleway';
+ }
+ .form_home > .form_head > span{
+     display: block;
+ }
+ .form_home > .desc_text {
+    margin-bottom: 20px;
+     font-size: 20px;
+     margin-left: 20px;
+ }
+ .sup{
+     font-size:70%;
+     vertical-align:super;
+ }
+ .form_home > .form_area {
+     background-color: #adadad;
+     margin: 10px 40px 10px 10px;
+     padding: 20px;
+     border-radius: 5px;
+ }
+ .form_row {
+     display: block;
+     margin-bottom: 10px;
+ }
+ .form_column {
+     display: inline;
+     margin-right: 20px;
+     font-size: 16px;
+ }
+ .form_column > i{
+     margin-left: 20px;
+     font-size: 20px;
+     vertical-align: middle;
+     cursor: pointer;
+ }
+ .form_row > span {
+    display: block;
+     margin-top: 5px;
+     font-style: italic;
+     font-weight: lighter;
+     line-height: 18px;
+     font-size: 13px;
+ }
+ .form_row > .row {
+     display: block;
+     margin-top: 5px;
+ }
+ .row > .form_column {
+     font-size: 16px;
+ }
+ .submit_section {
+    margin: 20px;
+}
+.submit_section > button {
+    background-color: #F1002B;
+   border :1px solid #F1002B;
+     background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #C40024 50%, #F1002B 51%);
+     color:white;
+    padding: 5px 10px;
+     font-size: 16px;
+    width:100px;
+ }
+ .submit_section > button > i{
+   font-size: 12px;
+     margin-left: 4px;
+}
+.country_code {
+    width:8%;
+ }
+ .loader {
+   border: 2px solid #f3f3f3;
+   border-radius: 50%;
+  border-top: 2px solid #3498db;
+  width: 15px;
+   height: 15px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+   margin:auto;
+ }
+
+/* Safari */
+ @-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+   100% { -webkit-transform: rotate(360deg); }
+ }
+
+ @keyframes spin {
+   0% { transform: rotate(0deg); }
+   100% { transform: rotate(360deg); }
+ }
+ @media only screen and (max-width: 1250px) {
+   .form_home > .form_head {
+       font-size: 60px;
+  }
+  .form_home > .form_area {
+      margin: 10px 10px 10px 10px;
+   }
+   .form_column {
+       font-size: 14px;
+   }
+   .row > .form_column {
+       font-size: 14px;
+  }
+   .form_row > span {
+       font-size: 12px;
+   }
+   .form_home > .desc_text {
+       font-size: 16px;
+   }
+  input, select{
+       font-size: 12px;
+   }
+ }

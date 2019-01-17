@@ -1,0 +1,6 @@
+{
+    "salt" : "",
+    "ipVal" : "http://192.168.4.141:4000",
+    "ipServer" : "http://api.prontoitlabs.com/api/v1/user",
+    "ip" : "http://api.prontoitlabs.com/api/v1/user"
+}

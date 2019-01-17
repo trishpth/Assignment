@@ -1,0 +1,70 @@
+@import '../../../../../../globalStyle.scss';
+ .login_form_home {
+     width: 30%;
+     background-color: #8c8a8a;
+     padding : 20px 20px 0px;
+     margin : 80px auto;
+ }
+
+ .login_head {
+     font-size: 30px;
+     text-align: center;     margin: 20px 20px 50px;
+     color : #FF3300;
+     font-family: 'Raleway';
+ }
+ .login_form_area {
+     margin: 20px 20px 0px;
+ }
+ .login_form_area > div {
+     margin-bottom: 20px;
+ }
+ .login_form_area > div > label {
+     display: block;
+     margin-bottom: 10px;
+ }
+ .login_form_area > div > input {
+     background-color: transparent;
+     border-bottom: 1px solid white;
+     border-width: 0px 0px 1px 0px;
+     margin-left: 0px;
+     width: 100%;
+     color: white;
+ }
+ .login_form_area > div > button{
+     background-color: #FF2718;
+     border : 1px solid #FF2718;
+     border-radius: 15px;
+     padding : 8px 15px;
+     color : white;
+     font-size: 18px;
+     width : 100%;
+ }
+ .login_form_area > div > span{
+     font-size: 15px;
+     float: right;
+     margin-top: 8px;
+     color: #FF2718;
+ }
+ .login_form_area > .loginBtn {
+     width:45%;
+     margin: 10px auto 50px;
+    font-family: $americanTypewriter;
+ }
+ .login_form_area > .loginFoot {
+     text-align: center;
+     padding-bottom: 20px;
+ }
+ .login_form_area > .loginFoot > label > span {
+     text-decoration: underline;
+ }
+ .login_form_area > .errorMessage {
+     margin-top: 20px;
+ }
+ @media only screen and (max-width: 1250px) {
+   .login_form_home {
+       width: 35%;
+   }
+   .login_form_area > .loginBtn {
+       margin: 60px auto 50px;
+   }
+}
